@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-img {
+header img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -38,4 +38,28 @@ h1 {
 
 h2 {
     text-align: center;
+}
+
+footer img {
+    width: 40px;
+    height: 40px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+.conteiner {
+    padding: 0px 50px;
+}
+
+nav a:hover {
+    color:blue
 }
