@@ -1,0 +1,42 @@
+.estrutura {
+    ul{
+        display: flex;
+        justify-content: space-evenly;
+        text-transform: uppercase;
+        list-style-type: none;
+    }
+    a {
+        text-decoration: none;
+        color: white;
+    }
+    h1 {
+        color: blue;
+        text-align: center;
+        padding: 100px;
+        text-transform: uppercase;
+
+    }
+}
+
+body {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    a {
+        justify-items: center;
+    }
+}
+
+.imagem {
+    text-align: center;
+}
